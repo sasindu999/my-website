@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasindu Maleesha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Login Button -->
+    <button class="login-btn" id="loginBtn">
+        <i class="fas fa-user"></i> Login
+    </button>
+
+    <!-- User Info (Hidden by default) -->
+    <div class="user-info" id="userInfo" style="display: none;">
+        <span id="userName"></span>
+        <button class="logout-btn" id="logoutBtn">Logout</button>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="intro">
+            <img src="https://i.pinimg.com/236x/62/48/03/624803bee204bc2b7761449dcc502821.jpg" alt="Profile Picture">
+            <h1>Sasindu Maleesha</h1>
+            <p class="tagline">Web Developer & Designer | Problem Solver</p>
+            <div class="social-links">
+                <a href="https://web.facebook.com/sasindu.maleesha.999" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/sasindu-maleesha-65b5ba334/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/sasindu999" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/sasindu_maleesha/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="#contact" class="btn">Let's Work Together</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="https://i.pinimg.com/236x/62/48/03/624803bee204bc2b7761449dcc502821.jpg" alt="Profile Picture">
+            <p>Hello! I'm Sasindu Maleesha, a passionate web developer from Sri Lanka. I specialize in front-end development, social media account recovery, and solving complex problems. With a keen eye for design and a commitment to creating functional, beautiful websites, I bring ideas to life through code.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-content">
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>HTML5</span>
+                        <span class="percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>CSS3</span>
+                        <span class="percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>JavaScript</span>
+                        <span class="percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>React</span>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="80"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Node.js</span>
+                        <span class="percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Express</span>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>MongoDB</span>
+                        <span class="percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>SQL</span>
+                        <span class="percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="70"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>UI/UX Design</h3>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Figma</span>
+                        <span class="percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Adobe XD</span>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Photoshop</span>
+                        <span class="percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Illustrator</span>
+                        <span class="percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="progress" data-progress="70"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-content">
+            <div class="project">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*e3NXmbnpZNpSQ4ltzXdTHg.png" alt="Project 1">
+                <h3>E-Commerce Website</h3>
+            </div>
+            <div class="project">
+                <img src="https://i.ytimg.com/vi/S9NOXjdipl4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB5kbDLrc6hzcf_27aVON0CBkEdRg" alt="Project 2">
+                <h3>Portfolio Website</h3>
+            </div>
+            <div class="project">
+                <img src="https://www.mailerlite.com/img/containers/assets/features/create-a-blog-hero-en.jpg/c129104e07caad0bc2946e489d31cd9a.webp" alt="Project 3">
+                <h3>Blog Platform</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        
+        <!-- Step 1: Email Input -->
+        <div id="email-step" class="contact-step">
+            <form id="email-verification-form">
+                <input type="email" id="user-email" placeholder="Enter your email address" required>
+                <button type="submit">
+                    <i class="fas fa-paper-plane"></i> Send Verification Code
+                </button>
+            </form>
+            <p class="contact-note">📧 We'll send you a verification code to confirm your email</p>
+        </div>
+
+        <!-- Step 2: Code Verification -->
+        <div id="code-step" class="contact-step" style="display: none;">
+            <div class="verification-info">
+                <p>✉️ Verification code sent to: <strong id="display-email"></strong></p>
+                <button class="change-email-btn" id="changeEmailBtn">
+                    <i class="fas fa-edit"></i> Change Email
+                </button>
+            </div>
+            <form id="code-verification-form">
+                <div class="code-input-group">
+                    <input type="text" class="code-input" maxlength="1" pattern="[0-9]" required>
+                    <input type="text" class="code-input" maxlength="1" pattern="[0-9]" required>
+                    <input type="text" class="code-input" maxlength="1" pattern="[0-9]" required>
+                    <input type="text" class="code-input" maxlength="1" pattern="[0-9]" required>
+                    <input type="text" class="code-input" maxlength="1" pattern="[0-9]" required>
+                    <input type="text" class="code-input" maxlength="1" pattern="[0-9]" required>
+                </div>
+                <button type="submit">
+                    <i class="fas fa-check"></i> Verify Code
+                </button>
+                <button type="button" class="resend-btn" id="resendBtn">
+                    <i class="fas fa-redo"></i> Resend Code
+                </button>
+            </form>
+            <p class="contact-note" id="timer-text"></p>
+        </div>
+
+        <!-- Step 3: Contact Form -->
+        <div id="contact-step" class="contact-step" style="display: none;">
+            <div class="verified-badge">
+                <i class="fas fa-check-circle"></i> Email Verified: <strong id="verified-email"></strong>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="from_name" placeholder="Your Name" required minlength="2">
+                <textarea name="message" placeholder="Your Message" required minlength="10"></textarea>
+                <button type="submit">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+
+        <div id="form-message" class="form-message"></div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://web.facebook.com/sasindu.maleesha.999" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/sasindu-maleesha-65b5ba334/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/sasindu999" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/sasindu_maleesha/" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2024-2025 Sasindu Maleesha. All rights reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="login">Login</button>
+                <button class="tab-btn" data-tab="signup">Sign Up</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="login-form" class="auth-form">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="login-email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="login-password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="auth-btn">Login</button>
+                <div class="auth-divider">OR</div>
+                <button type="button" class="google-btn" id="googleLogin">
+                    <i class="fab fa-google"></i> Continue with Google
+                </button>
+            </form>
+
+            <!-- Signup Form -->
+            <form id="signup-form" class="auth-form" style="display: none;">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="signup-name" placeholder="Full Name" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="signup-email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="signup-password" placeholder="Password (min 6 characters)" required>
+                </div>
+                <button type="submit" class="auth-btn">Sign Up</button>
+                <div class="auth-divider">OR</div>
+                <button type="button" class="google-btn" id="googleSignup">
+                    <i class="fab fa-google"></i> Sign up with Google
+                </button>
+            </form>
+
+            <div id="auth-message" class="auth-message"></div>
+        </div>
+    </div>
+
+    <!-- Configuration Script (Load First) -->
+    <script src="config.js"></script>
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
